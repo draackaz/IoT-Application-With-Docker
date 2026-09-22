@@ -5,6 +5,8 @@ It's important to add user to docker group after docker install :
 - sudo groupadd docker
 - sudo usermod -aG docker $USER
 
+The different config file are separated to maintain them more easly
+
 If you want to enhanced monitoring you can add prometheus and cadvisor :
 - https://prometheus.io/
 - https://github.com/google/cadvisor
