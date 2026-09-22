@@ -1,0 +1,15 @@
+services:
+
+ mariadb:
+    container_name: mariadb
+    image: mariadb:10.6
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mariadb/data:/var/lib/mariadb/data:rw
+    environment:
+      - MARIADB_ROOT_PASSWORD= add root password
+      - MARIADB_DATABASE= add datbase name
+      - MARIADB_USER= add user
+      - MARIADB_PASSWORD= add your passwor 
+    restart: unless-stopped
