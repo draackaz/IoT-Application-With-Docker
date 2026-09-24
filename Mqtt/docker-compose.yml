@@ -12,3 +12,7 @@ services:
       - ./mqtt/data:/mosquitto/data:rw
       - ./mqtt/log:/mosquitto/log:rw
     restart: unless-stopped
+
+networks:
+    mqtt5-network:
+    external: true
