@@ -13,3 +13,7 @@ services:
       - MARIADB_USER= add user
       - MARIADB_PASSWORD= add your passwor 
     restart: unless-stopped
+
+networks:
+  mqtt5-network:
+   external: true
