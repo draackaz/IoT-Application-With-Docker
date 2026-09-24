@@ -15,4 +15,5 @@ volumes:
   node-red-data:
 
 networks:
-  node-red-net:
+  mqtt5-network:
+    external: true
