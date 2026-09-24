@@ -14,3 +14,7 @@ volumes:
   grafana-data:
   grafana-conf:
 
+networks:
+  mqtt5-network:
+    external: true
+
