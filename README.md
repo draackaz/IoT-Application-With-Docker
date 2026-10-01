@@ -12,4 +12,4 @@ If you want to enhance monitoring, you can add Prometheus and Cadvisor:
 - https://github.com/google/cadvisor
 
 
-Translated with DeepL.com (free version)
+
